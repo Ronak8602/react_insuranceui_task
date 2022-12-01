@@ -1,0 +1,47 @@
+$primary-color: #1077db;
+$icon-color: #a2a8b4;
+$profile-color: #f4f6fa;
+
+.rightSideBar {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightBars {
+  width: 100%;
+  height: 88vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.subHeading {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  color: grey;
+  margin-bottom: 8px;
+  margin-top: -5px;
+}
+
+.insuranceCards {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.addCardButton {
+  height: 40px;
+}
+
+.knowMore {
+  padding: 0px;
+  margin: 0px;
+  text-align: right;
+  color: $primary-color;
+  font-size: 12px;
+}

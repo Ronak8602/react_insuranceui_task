@@ -1,0 +1,289 @@
+$primary-color: #1077db;
+$icon-color: #a2a8b4;
+$profile-color: #f4f6fa;
+$progress-color: #1dd291;
+
+.content {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  width: 92%;
+  padding: 32px;
+}
+
+.contentBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 58vh;
+  .left {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 16px;
+    .top {
+      height: 45%;
+    }
+    .bottom {
+      height: 60%;
+    }
+  }
+
+  .right {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.bookingCards {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.bookingCard {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.bookingCardLogo {
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  background-color: #f8f9fd;
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+}
+
+.bookingCardDetailHeading {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #67707a;
+}
+.bookingCardDetailSubHeading {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  font-weight: 400;
+  color: $icon-color;
+}
+
+.contentDivider {
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  width: 2px;
+}
+
+.consultationCategories {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 12px;
+}
+
+.categoryImage {
+  width: 28%;
+  margin-right: 16px;
+}
+
+.claimCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.claimCard {
+  width: 40%;
+  height: 90px;
+  margin-top: 8px;
+  box-shadow: 0px 3px 8px #f7f8f9;
+  margin-right: 40px;
+  border-radius: 2px;
+  border-top: 2px solid #008575;
+  padding: 16px;
+  padding-top: 12px;
+}
+
+.claimHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.claimHeading {
+  margin: 0px;
+  padding: 0px;
+  font-size: 8px;
+  color: #92989c;
+}
+
+.claimAccount {
+  margin: 0px;
+  padding: 0px;
+  font-size: 10px;
+  color: #2b3448;
+}
+
+.arrow {
+  color: #2b4354;
+}
+
+.claimMoney {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: #2b3448;
+  margin-top: 2px;
+  font-weight: 500;
+}
+
+.claimProgress {
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+//rom here
+
+.modal-body {
+  padding: 1rem;
+}
+
+#progressbar {
+  margin-bottom: 3vh;
+  overflow: hidden;
+  color: $progress-color;
+  padding-left: 0px;
+  margin-top: 0.5vh;
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 8px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 300;
+  color: $icon-color;
+}
+
+#progressbar #step1:before {
+  content: "";
+  color: $progress-color;
+  width: 8px;
+  height: 8px;
+  margin-left: 0px !important;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step2:before {
+  content: "";
+  color: $progress-color;
+  width: 8px;
+  height: 8px;
+  margin-left: 32%;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step3:before {
+  content: "";
+  color: $progress-color;
+  width: 8px;
+  height: 8px;
+  margin-right: 32%;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar #step4:before {
+  content: "";
+  color: rgb(151, 149, 149, 0.651);
+  width: 8px;
+  height: 8px;
+  margin-right: 0px !important;
+  margin-top: 12%;
+  z-index: 1;
+}
+
+#progressbar li:before {
+  line-height: 29px;
+  display: block;
+  font-size: 8px;
+  background: rgb(151, 149, 149);
+  border-radius: 50%;
+  margin: auto;
+  z-index: -1;
+  margin-bottom: 2px;
+}
+
+#progressbar li:after {
+  content: "";
+  height: 3px;
+  background: rgb(151, 149, 149, 0.651);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-bottom: 2vh;
+  top: 8px;
+  z-index: 1;
+}
+.progress-track {
+  padding: 0 8%;
+}
+#progressbar li:nth-child(2):after {
+  margin-right: auto;
+}
+
+#progressbar li:nth-child(1):after {
+  margin: auto;
+}
+
+#progressbar li:nth-child(3):after {
+  float: left;
+  width: 68%;
+}
+#progressbar li:nth-child(4):after {
+  margin-left: auto;
+  width: 132%;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: $progress-color;
+}
+
+#three {
+  font-size: 8px;
+  color: black;
+}
+
+#step4 {
+  text-align: right;
+}
+
+.bottomDivider {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
