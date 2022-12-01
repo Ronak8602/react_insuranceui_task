@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_insuranceui_task/static/css/main.63c2796e.css",
+    "main.js": "/react_insuranceui_task/static/js/main.3babb18c.js",
+    "static/js/787.517367ff.chunk.js": "/react_insuranceui_task/static/js/787.517367ff.chunk.js",
+    "static/media/banner.png": "/react_insuranceui_task/static/media/banner.4024409c1628d7e832f2.png",
+    "static/media/health1.png": "/react_insuranceui_task/static/media/health1.60b747ace8a331715afb.png",
+    "static/media/car.png": "/react_insuranceui_task/static/media/car.6f4ada2f76c33ee41905.png",
+    "static/media/health2.png": "/react_insuranceui_task/static/media/health2.d075a5c011fd4c829658.png",
+    "static/media/doctors.png": "/react_insuranceui_task/static/media/doctors.4c116475cfff723c33da.png",
+    "static/media/labs.png": "/react_insuranceui_task/static/media/labs.4afde69ec258ca028519.png",
+    "static/media/therapy.png": "/react_insuranceui_task/static/media/therapy.1b66ec854f43858202af.png",
+    "index.html": "/react_insuranceui_task/index.html",
+    "main.63c2796e.css.map": "/react_insuranceui_task/static/css/main.63c2796e.css.map",
+    "main.3babb18c.js.map": "/react_insuranceui_task/static/js/main.3babb18c.js.map",
+    "787.517367ff.chunk.js.map": "/react_insuranceui_task/static/js/787.517367ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c2796e.css",
+    "static/js/main.3babb18c.js"
+  ]
+}
