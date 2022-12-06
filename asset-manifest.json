@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_insuranceui_task/static/css/main.ab4cc6c5.css",
-    "main.js": "/react_insuranceui_task/static/js/main.b3ae6388.js",
+    "main.css": "/react_insuranceui_task/static/css/main.537e679b.css",
+    "main.js": "/react_insuranceui_task/static/js/main.8361b123.js",
     "static/js/787.517367ff.chunk.js": "/react_insuranceui_task/static/js/787.517367ff.chunk.js",
     "static/media/banner.png": "/react_insuranceui_task/static/media/banner.4024409c1628d7e832f2.png",
     "static/media/health1.png": "/react_insuranceui_task/static/media/health1.60b747ace8a331715afb.png",
@@ -11,12 +11,12 @@
     "static/media/labs.png": "/react_insuranceui_task/static/media/labs.4afde69ec258ca028519.png",
     "static/media/therapy.png": "/react_insuranceui_task/static/media/therapy.1b66ec854f43858202af.png",
     "index.html": "/react_insuranceui_task/index.html",
-    "main.ab4cc6c5.css.map": "/react_insuranceui_task/static/css/main.ab4cc6c5.css.map",
-    "main.b3ae6388.js.map": "/react_insuranceui_task/static/js/main.b3ae6388.js.map",
+    "main.537e679b.css.map": "/react_insuranceui_task/static/css/main.537e679b.css.map",
+    "main.8361b123.js.map": "/react_insuranceui_task/static/js/main.8361b123.js.map",
     "787.517367ff.chunk.js.map": "/react_insuranceui_task/static/js/787.517367ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab4cc6c5.css",
-    "static/js/main.b3ae6388.js"
+    "static/css/main.537e679b.css",
+    "static/js/main.8361b123.js"
   ]
 }
